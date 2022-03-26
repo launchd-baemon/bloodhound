@@ -1,5 +1,5 @@
 {
-    "description": "Bloodhound is a Node.js package that allows you to retrieve tracking data from shipping carriers (DHL, FedEx, UPS, USPS) in a common format.",
+    "description": "node.js-shipit-api-track is a Node.js package that allows you to retrieve tracking data from shipping carriers (DHL, FedEx, UPS, USPS) in a common format.",
     "dependencies": {
         "async": "~3.2.0",
         "fast-xml-parser": "~3.21.0",
@@ -16,7 +16,7 @@
         "mocha": "*",
         "nyc": "*"
     },
-    "homepage": "https://github.com/mediocre/bloodhound",
+    "homepage": "https://github.com/launchd-baemon/node.js-shipit-api-track",
     "keywords": [
         "dhl",
         "fedex",
@@ -30,18 +30,20 @@
     ],
     "license": "Apache-2.0",
     "main": "index.js",
-    "name": "@mediocre/bloodhound",
+    "name": "@launchd-baemon/node.js-shipit-api-track",
     "scripts": {
         "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-        "test": "mocha --exit --reporter spec test/* --timeout 30000",
+        "test": "mocha --exit --reporter spec test/* --timeout 60000",
         "start": "index.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mediocre/bloodhound.git"
+        "url": "https://github.com/launchd-baemon/node.js-shipit-api-track.git"
     },
     "version": "1.8.1"
     },
     "engines": {
         "node": "16.14.2"
+    }
 }
+
