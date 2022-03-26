@@ -33,7 +33,8 @@
     "name": "@mediocre/bloodhound",
     "scripts": {
         "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-        "test": "mocha --exit --reporter spec test/* --timeout 30000"
+        "test": "mocha --exit --reporter spec test/* --timeout 30000",
+        "start": "web"
     },
     "repository": {
         "type": "git",
