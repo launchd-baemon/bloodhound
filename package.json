@@ -35,7 +35,6 @@
         "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
         "test": "mocha --exit --reporter spec test/* --timeout 30000",
         "start": "index.js"
-}
     },
     "repository": {
         "type": "git",
